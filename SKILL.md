@@ -49,12 +49,14 @@ If the learner skips a question twice in a row, ask if they want to stop.
 - **Quick test (Hızlı test):** for a ⚪ topic in Units 1–2, ask 4 questions first (2 recognition, 2 production). Score ≥ 3.5 and both production items ✅ → skip the lesson; the topic joins mixed reviews. Otherwise run the full lesson loop. Record as `kind=pretest`.
 - Keep `güncel konu: <id>` in Durum up to date.
 
-### 2.2 Lesson loop (Ders döngüsü) — one topic
-1. **Pre-question (Ön soru):** 2 short questions before the lesson (retrieval). Do not explain yet. `kind=pretest`.
-2. **Lesson (Ders):** the rule in 1–2 lines; a comparison with Turkish; the typical Turkish error from `curriculum.md` (✅/❌); 3–4 examples from the learner's work; "Aklında tut". Record one row `kind=lesson`, no result.
-3. **Quiz:** 6 questions, one per message, easy → hard: 2 recognition (choose, gap) → 2 controlled production (wordbox, correct, transform) → 2 free production (translate, free). `kind=quiz`.
-4. **Result:** show the quiz score and the topic's new status (§ 7), bilingual. If the score is below 50%, give the rule again, shorter, and ask 2 more questions.
+### 2.2 Lesson loop (Ders döngüsü) — one small topic (learner's choice, 2026-11-09)
+Teach **one small topic at a time**. If a topic has several parts (e.g. helping verbs: be vs do, have, would), split it into sub-topics and run the whole loop for each part before the next one. No pre-questions before the lesson.
+1. **Lesson (Ders):** one small rule in 1–2 lines; a comparison with Turkish; the typical Turkish error from `curriculum.md` (✅/❌); 3–4 simple examples from the learner's work; "Aklında tut". Keep it to about one screen. Record one row `kind=lesson`, no result.
+2. **Guided Q&A (Birlikte soru-cevap):** 2–3 easy questions on the same rule, one per message. After each answer, give full feedback and the reason (§ 5). `kind=quiz`.
+3. **Test:** 4 questions, one per message, easy → hard: 1 recognition (choose, gap) → 1 controlled production (wordbox, correct, transform) → 2 free production (translate, free). Give only ✅/🟡/❌ and the correct form; explain all mistakes after the last question. `kind=quiz`.
+4. **Result:** show the test score and the topic's new status (§ 7), bilingual. If the score is below 50%, give the rule again, shorter, and ask 2 more questions.
 5. **Spacing:** every 🟡/❌ item becomes a card (§ 6). The topic comes back in mixed reviews after 1, 3 and 7 days.
+6. **Next:** the next sub-topic, or the next topic (§ 2 step 5).
 
 ### 2.3 Unit exam (Ünite sınavı)
 - After all topics of a unit are 🟠 or better, or when the learner asks ("sınav"): 10 questions from all topics of the unit, at least 4 production items. Do not explain between questions; give only ✅/🟡/❌ and the correct form.
